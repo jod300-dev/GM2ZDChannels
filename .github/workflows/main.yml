@@ -13,7 +13,7 @@ jobs:
       matrix:
         config:
         - name: Windows
-          os: windows-2025
+          os: windows-latest
 
     name: ${{ matrix.config.name }}
     runs-on: ${{ matrix.config.os }}
